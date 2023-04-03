@@ -119,7 +119,11 @@ CMD ["node", "build"]
 
 ```
 Once you've created the Dockerfile, navigate to the root of your project and execute the `docker build . -t appkit` command. This will build a Docker image named `appkit`. Once the build process is complete, you should see the terminal confirming the creation of the image in your terminal.
+
+
 ![Docker Image Built Terminal](https://www.udrop.com/file/7YpB/Screenshot_from_2023-03-26_15-22-50.png)
+
+
 
 ## Running The Application
 Once you've created the Dockerfile, you can run your application inside a container by executing the command `docker run -d -p 3000:3000 --name app-container appkit`. This command does the following:
@@ -462,6 +466,7 @@ This component has a logout button. The script section contains two functions: `
 The `logout` function is called when the user clicks on the "Logout" button. It calls the `state.logout()` function, which logs the user out and destroys the session. Then, it redirects the user to the login page using `goto('/login')`.
 
 Viola!, we have built a simple app with Sveltekit and Appwrite.
+
 ![Wolf gif](https://media.tenor.com/w_I1Q36W4J8AAAAC/uconn-huskies-jonathan.gif)
 
 If you have any problems, feel free to contact me on [Twitter](https://twitter.com/web_n3rd)
