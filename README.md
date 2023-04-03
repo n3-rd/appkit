@@ -30,9 +30,13 @@ Create a Sveltekit application by running
     yarn create vite //Yarn
 ```
 We'll name it "appkit" and choose Svelte as our framework, but the variant should be Sveltekit
+
 ![Sveltekit Variant](https://www.udrop.com/file/7Ypi/Screenshot_from_2023-03-26_14-25-17.png)
+
 We'll then select the Skeleton project option
+
 ![Skeleton Project](https://www.udrop.com/file/7Ypj/Screenshot_from_2023-03-26_14-33-00.png)
+
 We won't be using Typescript for this so select no for Typescript and only ESlint and Prettier in the Additional options.
 
 Our project would be created and we'll navigate into the directory and install all dependencies
@@ -41,6 +45,7 @@ Our project would be created and we'll navigate into the directory and install a
     pnpm install
 we'll now run the app using the `pnpm dev` command and open the url ( default is http://localhost:5173/ )
 We should see this basic page
+
 ![sveltekit basic page](https://www.udrop.com/file/7Ypu/Screenshot_from_2023-03-26_14-58-22.png)
 
 Next we'll configure docker, make sure it is installed or install it [here](https://docs.docker.com/engine/install/).
